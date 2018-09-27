@@ -26,7 +26,6 @@ class Transfer
       puts "Transaction rejected. Please check your account balance."
       @status = "rejected"
     end
-    @status
   end
 
   def reverse_transfer
